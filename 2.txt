@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>zzn's website</title>
+<!--<link type="text/css" rel="stylesheet" href="index.css" media="screen">
+-->
+<link rel="shortcut icon" href="./ico.ico" />
+<style>
+	body ,p, a, h1, h2{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+	width: 1000px;
+	margin: 0 auto;
+	background: url(images/bgp.jpg) repeat;
+	
+	font-family: Consolas,  Monaco, "幼圆", "等线" , "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	
+	}
+	.head{
+		background: url(images/3.jpg) repeat;
+		height:255px;
+		text-align: center;
+		
+	}
+	.body{
+		background: url(images/3.jpg) repeat;
+		text-align: center;
+		height: 465px;
+		margin-top:-25px;
+	}
+	h1{
+		font-size:4em;
+		line-height: 2em;
+		text-decoration: underline;
+		color: gray;
+		
+	}
+	h2{
+		font-size:1em;
+		color: #B7B7B7
+	}
+	hr{
+		width: 60%;
+		height:1px;
+		background: black;
+	}
+	.title1{
+		font-weight: bold;
+		font-size: 2em;
+		color: red;
+		
+	}
+	.a1{
+		display: inline-block;
+		width: 200px;
+		height: 50px;
+		background: white;
+		text-decoration: none;
+		border-radius: 10px;
+		border: 2px black solid;
+		font-size: 1.5em;
+		color:rgb(156, 156, 156);
+		line-height: 1.8em;
+	}
+	.a1:hover{
+		background: rgba(250, 80, 80, 0.5);
+		text-decoration: underline;
+		color: blue;
+	}
+	.foot{
+		text-align: center;
+		color:grey;
+		background: white;
+		margin-top: 5px;
+	}
+	.foot a{
+		color:grey;
+		text-decoration:none;
+	}
+	.foot a:hover{
+		color:red;
+		text-decoration:underline;
+	}
+	.tiny-font{
+		font-size:0.9em;
+		padding-top:0.8em;
+		padding-buttom:-0.8em;
+	}
+
+</style>
+</head>
+
+<body>
+	<div class="all">
+	<div class="head">
+		<div class="viod"> </div>
+		<h1>WELCOME TO ZZN'S WEBSITE</h1>
+		<hr>
+		<h2>This page is just for test</h2>
+		<hr>
+	</div>
+	<div class="body">
+		<div class="download">
+			<h3 class="title1">Some links for download in local server</h3>
+			<a class="a1" href="download/jdk1.8.0_161.tar.gz">JDK1.8.0_161</a>
+			<a class="a1" href="download/HMCL-2.5.3.88.jar">HMCL-2.5.3.88</a>
+
+		</div>
+		<div class="homework">
+			<h3 class="title1">Some exhibitions of my homework</h3>
+			<a class="a1" href="homework/1/index.html">homework1</a>
+			<a class="a1" href="homework/2/index.html">homework2</a>
+			<a class="a1" href="homework/3/index.html">homework3</a>
+		</div>
+		<div class="github">
+			<h3 class="title1">Source code of learning C : github</h3>
+			<a class="a1 tiny-font" href="https://github.com/zhangzining/library">Library system(c)</a>
+			<a class="a1 tiny-font" href="https://github.com/zhangzining/test1">Final test 2016(c)</a>
+			<a class="a1 tiny-font" href="https://github.com/zhangzining/c-practice">Practices</a>
+
+		</div>
+	</div>
+	<div class="foot">
+		<a href="http://www.miibeian.gov.cn">
+			浙ICP备18009157号			
+		</a>
+	</div>
+	</div>
+</body>
+</html>
